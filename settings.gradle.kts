@@ -24,4 +24,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "Simple Date Picker"
 include(":app")
-include(":datepicker")

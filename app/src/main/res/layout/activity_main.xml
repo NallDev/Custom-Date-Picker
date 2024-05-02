@@ -8,13 +8,26 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/hello"
+        android:id="@+id/placeholder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="See the magic"
+        app:layout_constraintBottom_toTopOf="@id/btn_show"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show picker"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/placeholder"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:cornerRadius="8dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
