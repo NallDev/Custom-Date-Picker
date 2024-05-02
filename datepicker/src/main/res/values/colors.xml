@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_button">#FF18181B</color>
+    <color name="txt_button">#FFFAFAFA</color>
+</resources>
