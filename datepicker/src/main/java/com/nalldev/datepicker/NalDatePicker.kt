@@ -15,7 +15,7 @@ class NalDatePicker : BottomSheetDialogFragment() {
      * Listener that gets triggered when the save button is clicked.
      * This listener returns the selected date as a string in the format "dd/MM/YYYY".
      */
-    var onSaveListener: ((String) -> Unit)? = null
+    private var onSaveListener: ((String) -> Unit)? = null
 
     /**
      * Listener that gets triggered when the value is changed.
